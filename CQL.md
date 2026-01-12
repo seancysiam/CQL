@@ -29,11 +29,11 @@
 	| groupBy([Field], function=([collect([Field, Field])]), limit=max)
 
 #### Table output(field names by csv)
-`| table([])`
+| table([])
 
 
 #### Count  
-`|  _count <5
+|  _count <5
 
 ## Timestamp
 | timestamp := formatTime("%Y-%m-%d %H:%M:%S", field=timestamp, locale=en_US, timezone="Europe/London")
